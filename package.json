@@ -1,0 +1,23 @@
+{
+	"name": "qm-tutorial",
+	"version": "0.1.0",
+	"description": "A demo plugin for learning how to use Query Monitor",
+	"author": "Brian Coords",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start",
+		"env": "wp-env"
+	},
+	"dependencies": {
+		"@wordpress/env": "^8.7.0",
+		"@wordpress/scripts": "^26.12.0",
+		"@wordpress/stylelint-config": "^21.24.0"
+	}
+}
